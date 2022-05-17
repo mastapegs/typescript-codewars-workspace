@@ -1,1 +1,1 @@
-export * from './lib/codewars-katas';
+export * from "./lib/dna";
