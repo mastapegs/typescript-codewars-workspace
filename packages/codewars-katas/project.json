@@ -1,0 +1,23 @@
+{
+  "root": "packages/codewars-katas",
+  "sourceRoot": "packages/codewars-katas/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/codewars-katas/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/codewars-katas"],
+      "options": {
+        "jestConfig": "packages/codewars-katas/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

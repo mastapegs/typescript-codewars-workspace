@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@codewars-workspace/codewars-katas": [
+        "packages/codewars-katas/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
