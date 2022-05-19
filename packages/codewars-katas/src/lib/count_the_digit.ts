@@ -1,4 +1,4 @@
-export function nbDig(n: number, d: number): number {
+export function digit_count(n: number, d: number): number {
   const squared_numbers = [];
   for (let i = 0; i <= n; i++) {
     squared_numbers.push(i ** 2);
