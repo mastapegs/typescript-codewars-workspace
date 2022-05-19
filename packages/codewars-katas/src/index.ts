@@ -6,3 +6,4 @@ export * from "./lib/vowel_count";
 export * from "./lib/odd_triangle";
 export * from "./lib/is_triangle";
 export * from "./lib/multiple_3_5";
+export * from "./lib/count_the_digit";
