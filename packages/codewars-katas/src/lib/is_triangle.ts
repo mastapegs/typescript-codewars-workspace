@@ -1,3 +1,6 @@
 export function isTriangle(a: number, b: number, c: number): boolean {
-  return false;
+  if (a + b <= c) return false;
+  if (a + c <= b) return false;
+  if (b + c <= a) return false;
+  return true;
 }
